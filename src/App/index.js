@@ -1,6 +1,5 @@
-import React from 'react';
-import './App.css';
-import ClaimForm from './components/ClaimForm';
+import React from "react"
+import Main from "../components/Main"
 
 function App() {
   return (
@@ -9,13 +8,13 @@ function App() {
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-half">
-              <ClaimForm />
+              <Main />
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

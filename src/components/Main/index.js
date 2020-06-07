@@ -1,8 +1,9 @@
 import React from "react"
-import FormFlightInformation from "./FormFlightInformation"
-import FormFlightCancellation from "./FormFlightCancellation"
-import FormFlightDelay from "./FormFlightDelay"
-import Confirm from "./Confirm"
+import FormFlightInformation from "../FormFlightInformation"
+import FormFlightCancellation from "../FormFlightCancellation"
+import FormFlightDelay from "../FormFlightDelay"
+import Confirm from "../Confirm"
+import Success from "../Success"
 
 export class ClaimForm extends React.Component {
   state = {
@@ -23,7 +24,7 @@ export class ClaimForm extends React.Component {
     const { step } = this.state
     this.setState({ step: step - 1 })
   }
-
+  // eslint-disable-next-line
   stepByStep = () => {
     const { step, flightInterruptionType } = this.state
 
@@ -57,7 +58,15 @@ export class ClaimForm extends React.Component {
         )
 
       case 3:
-        return <Confirm />
+        return (
+          <Confirm
+            prevStep={this.prevStep}
+            nextStep={this.nextStep}
+          />
+        )
+
+      case 4:
+        return <Success />
     }
   }
 

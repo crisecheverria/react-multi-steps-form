@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders <App/> component 1`] = `
+<body>
+  <div>
+    <div
+      class="hero is-fullheight"
+    >
+      <div
+        class="hero-body"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="columns is-centered"
+          >
+            <div
+              class="column is-half"
+            >
+              <div
+                class="box"
+              >
+                <article
+                  class="media"
+                >
+                  <div
+                    class="media-content"
+                  >
+                    <h2
+                      class="title"
+                    >
+                      Flight Information
+                    </h2>
+                    <div
+                      class="field"
+                    >
+                      <label
+                        class="label"
+                        for="airline"
+                      >
+                        Airline
+                      </label>
+                      <div
+                        class="select"
+                      >
+                        <select
+                          data-testid="select-input"
+                          name="airline"
+                        >
+                          <option
+                            value=""
+                          >
+                            Select Airline
+                          </option>
+                          <option
+                            value="Scandinavian Airlines"
+                          >
+                            Scandinavian Airlines
+                          </option>
+                          <option
+                            value="British Airways"
+                          >
+                            British Airways
+                          </option>
+                          <option
+                            value="Lufthansa"
+                          >
+                            Lufthansa
+                          </option>
+                          <option
+                            value="KLM"
+                          >
+                            KLM
+                          </option>
+                          <option
+                            value="Air France"
+                          >
+                            Air France
+                          </option>
+                        </select>
+                      </div>
+                      
+                    </div>
+                    <div
+                      class="field"
+                    >
+                      <label
+                        class="label"
+                        for="flightDateTime"
+                      >
+                        Flight DateTime
+                      </label>
+                      <input
+                        class="input"
+                        data-testid="text-input"
+                        id="flightDateTime"
+                        name="flightDateTime"
+                        type="datetime-local"
+                        value=""
+                      />
+                      
+                    </div>
+                    <h2
+                      class="title"
+                    >
+                      Flight Interruption Type
+                    </h2>
+                    <div
+                      class="field"
+                    >
+                      <label
+                        class="radio"
+                        for="interruptionType"
+                      >
+                        <input
+                          class="radio"
+                          data-testid="radio-button"
+                          id="interruptionType"
+                          name="interruptionType"
+                          type="radio"
+                          value="cancellation"
+                        />
+                         
+                        Cancellation
+                      </label>
+                      
+                    </div>
+                    <div
+                      class="field"
+                    >
+                      <label
+                        class="radio"
+                        for="interruptionType"
+                      >
+                        <input
+                          class="radio"
+                          data-testid="radio-button"
+                          id="interruptionType"
+                          name="interruptionType"
+                          type="radio"
+                          value="delay"
+                        />
+                         
+                        Delay
+                      </label>
+                      
+                    </div>
+                    <button
+                      class="button is-primary is-pulled-right"
+                      data-testid="submit-button"
+                      type="submit"
+                    >
+                      Next
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
