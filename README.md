@@ -1,6 +1,6 @@
 ## Live Demo
 
-I submitted the project into the web in order to have a live demo, you can see it with [this link](https://fervent-snyder-da3a03.netlify.app/).
+I submitted the project into the web in order to have a [Live Demo.](https://fervent-snyder-da3a03.netlify.app/)
 
 ## Project Structure
 
