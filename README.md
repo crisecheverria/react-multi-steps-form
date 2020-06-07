@@ -1,6 +1,6 @@
 ## Live Demo
 
-I submitted the project into the web in order to have a live demo, you can see it with this link.
+I submitted the project into the web in order to have a live demo, you can see it with [this link](https://fervent-snyder-da3a03.netlify.app/).
 
 ## Project Structure
 
@@ -25,7 +25,7 @@ Decided to use **localStorage** instead of React Context or Redux. That would be
 
 ### React Hooks
 
-Only the <Main /> is a Class Component and the reason for that is because we need at least something to render(), based on the structure of the project. The rest are all Functional Components with React Hooks.
+Only the `<Main />` is a Class Component and the reason for that is because we need at least something to render(), based on the structure of the project. The rest are all Functional Components with React Hooks.
 
 ## Dependencies
 
